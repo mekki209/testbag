@@ -80,5 +80,5 @@
     "node-sass": "^7.0.1",
     "webpack": "^5.72.0"
   },
-  "proxy": "http://localhost:4001"
+  "proxy": "https://livmo.herokuapp.com/"
 }
