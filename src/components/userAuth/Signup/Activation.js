@@ -11,7 +11,7 @@ import { Link } from "react-router-dom"
 const Activation = () => {
 
     const {activationcode } = useParams();
-    axios.post(`http://localhost:4001/api/v1/verifyuser/${activationcode}`)
+    axios.post(`https://livmo.herokuapp.com/api/v1/verifyuser/${activationcode}`)
     console.log(activationcode)
     return (
      
