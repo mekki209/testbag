@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,7 +40,7 @@
     "react-icons": "^4.4.0",
     "react-images-uploading": "^3.1.7",
     "react-redux": "^7.2.6",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^5.3.3",
     "react-scripts": "5.0.0",
     "react-slick": "^0.29.0",
     "redux": "^4.1.2",
@@ -64,6 +65,10 @@
       "react-app/jest"
     ]
   },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "webpack": "^5.72.0"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -75,10 +80,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "node-sass": "^7.0.1",
-    "webpack": "^5.72.0"
   },
   "proxy": "https://livmo.herokuapp.com/"
 }
