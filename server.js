@@ -38,7 +38,7 @@ cloudinary.config({
 connectDatabase();
 
 const server = app.listen(process.env.PORT, ()=>{
-    console.log(`Server Started on PORT: ${process.env.PORT} in ${process.env.NODE_ENV} mode. `);
+    console.log(`Server Started on PORT: ${process.env.PORT || 5000} in ${process.env.NODE_ENV} mode. `);
 });
 
 // Handle Unhandled Promise rejections
